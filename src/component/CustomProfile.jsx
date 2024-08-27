@@ -117,7 +117,7 @@ const CustomProfile = () => {
             </div>
             <div className="form-actions">
                 <button className="save-button" onClick={handleSave}>{isEditing ? 'Update' : 'Save'}</button>
-                <button className="back-button" onClick={() => window.location.href = '/Visit-Robomiracle'}>
+                <button className="back-button" onClick={() => window.location.href = '/'}>
                     Back to Visit Page
                 </button>
             </div>
